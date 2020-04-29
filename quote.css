@@ -1,0 +1,46 @@
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 1000px;
+  margin: auto;
+  text-align: center;
+}
+
+ body{
+       background-image: url('https://images.pexels.com/photos/2652346/pexels-photo-2652346.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500.jpg');
+       background-repeat: no-repeat;
+       background-attachment: fixed;
+       background-size: cover;
+     }
+
+
+.btn.btn-info{
+    font-size: 30px;
+    font-family: gabriola,gabriola;
+    color: olive;
+    
+    background-color: white;
+    border: dashed 0.7px grey;
+    position: absolute;
+}
+
+p{
+    text-align: center; 
+    font-size: 30px;
+    font-family: gabriola,gabriola;
+    font-weight: bold;
+   
+}
+a{
+    color: #7FFFD4;
+    font-size: 40px;
+    float: right;
+    clear: both;
+}
+#display{
+    font-size: 40px;
+    font-family:"Brush Script MT",cursive;
+    text-align: center;
+    text-decoration: underline;
+     color: #5F9EA0;
+}
+	

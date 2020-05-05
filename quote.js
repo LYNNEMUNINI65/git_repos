@@ -32,14 +32,14 @@ function checkTime(i) {
 
 //quote array
 var quotes = [
-    "\"Live as if you were to die tomorrow. Learn as if you were to live forever.\" – Mahatma Gandhi",
-    "\"Dude, suckin' at something is the first step at being sorta good at something.\"<br>-  Jake <small><em>(Adventure Time)</em></small>",
-    "\"That which does not kill us makes us stronger.\" – Friedrich Nietzsche",
-    "\"Be who you are and say what you feel, because those who mind don’t matter and those who matter don’t mind.\" – Bernard M. Baruch",
-    "\"We must not allow other people’s limited perceptions to define us.\" – Virginia Satir",
-    "\"This above all: to thine own self be true.\" – William Shakespeare",
-    "\"If you cannot do great things, do small things in a great way.\" – Napoleon Hill",
-    "\"It\'s Not whether you get knocked down, it\'s about whether you get up. - Vince Lombardi"
+    "\"Live as if you were to die tomorrow. Learn as if you were to live forever.\" <br> – Mahatma Gandhi",
+    "\"Dude, suckin' at something is the first step at being sorta good at something.\" <br> - Jake <small><em>(Adventure Time)</em></small>",
+    "\"That which does not kill us makes us stronger.\" <br> – Friedrich Nietzsche",
+    "\"Be who you are and say what you feel, because those who mind don’t matter and those who matter don’t mind.\" <br> – Bernard M. Baruch",
+    "\"We must not allow other people’s limited perceptions to define us.\" <br> – Virginia Satir",
+    "\"This above all: to thine own self be true.\" <br> – William Shakespeare",
+    "\"If you cannot do great things, do small things in a great way.\" <br> – Napoleon Hill",
+    "\"It\'s Not whether you get knocked down, it\'s about whether you get up.\" <br> - Vince Lombardi",
      ];
 
 //NewQuote function

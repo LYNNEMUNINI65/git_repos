@@ -2,17 +2,18 @@
     background-color: white;
 } 
 .fullCard {
-    width: 350px;
+    width: 500px;
+    height: 500px;
     border: 1px solid #ccc;
     border-radius: 5px;
     margin: 10px 5px;
     padding: 4px;
     background-image: url(https://images.pexels.com/photos/1274260/pexels-photo-1274260.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500); 
     position: relative;
-    top: 50px;
+    top: 40px;
     bottom: 100px;
     right: 400px;
-    left: 400px;
+    left: 300px;
   }
   .cardContent {
     padding: 10px;
@@ -21,8 +22,8 @@
     margin-bottom: 30px;
   }
 .btn.btn-info{
-    font-size: 18px;
-    color: silver;
+    font-size: 15px;
+    color: grey;
     background-color: white;
     border: none;
     float: right;
@@ -38,8 +39,10 @@ p{
    
 }
 a:link{
-    color: #7FFFD4;
+    color: #F5F5DC;
     font-size: 40px;
+    float: right;
+    clear: both;
 }
 a:visited{
 color: pink;
@@ -55,7 +58,9 @@ text-decoration: none;
     text-align: center;
     text-decoration: none;
     color: #5F9EA0;
-    float: right;
-    clear: both;
+}
+#btn:hover{
+color: black;
+background-color: #FFE4C4;
 }
 	

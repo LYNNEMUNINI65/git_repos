@@ -1,46 +1,61 @@
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width: 1000px;
-  margin: auto;
-  text-align: center;
-}
-
- body{
-       background-image: url('https://images.pexels.com/photos/2652346/pexels-photo-2652346.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500.jpg');
-       background-repeat: no-repeat;
-       background-attachment: fixed;
-       background-size: cover;
-     }
-
-
-.btn.btn-info{
-    font-size: 30px;
-    font-family: gabriola,gabriola;
-    color: olive;
-    
+ body {
     background-color: white;
-    border: dashed 0.7px grey;
-    position: absolute;
-}
+} 
+.fullCard {
+    width: 350px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px 5px;
+    padding: 4px;
+    background-image: url(https://images.pexels.com/photos/1274260/pexels-photo-1274260.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500); 
+    position: relative;
+    top: 50px;
+    bottom: 100px;
+    right: 400px;
+    left: 400px;
+  }
+  .cardContent {
+    padding: 10px;
+  }
+  .cardText {
+    margin-bottom: 30px;
+  }
+.btn.btn-info{
+    font-size: 18px;
+    color: silver;
+    background-color: white;
+    border: none;
+    float: right;
+    clear: both;
+  }
 
 p{
     text-align: center; 
-    font-size: 30px;
-    font-family: gabriola,gabriola;
-    font-weight: bold;
+    font-size: 20px;
+    font-family: Arial,Sans-serif;
+    font-weight: light;
+    color: white;
    
 }
-a{
+a:link{
     color: #7FFFD4;
     font-size: 40px;
-    float: right;
-    clear: both;
+}
+a:visited{
+color: pink;
+text-decoration: none;
+}
+a:hover{
+color: pink;
+text-decoration: none;
 }
 #display{
-    font-size: 40px;
-    font-family:"Brush Script MT",cursive;
+    font-size: 22px;
+    font-family:"Courier New", Monospace;
     text-align: center;
-    text-decoration: underline;
-     color: #5F9EA0;
+    text-decoration: none;
+    color: #5F9EA0;
+    float: right;
+    clear: both;
 }
 	

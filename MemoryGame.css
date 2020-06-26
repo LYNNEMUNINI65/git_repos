@@ -1,0 +1,33 @@
+#ParentDiv {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    width: 680px;
+    background-color: #BEBEBE;
+    margin: auto;
+    margin-bottom: 30px;
+    border-radius:10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+.flex-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#556B2F;
+    width: 130px;
+    height: 130px;
+    margin: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-size: 40px;
+    }
+.about {
+text-align: center;
+font-weight: bold;
+font-size: 30px;
+font-family: 'Gloria Hallelujah', cursive;
+}
